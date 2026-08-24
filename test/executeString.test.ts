@@ -1,3 +1,5 @@
+import { Orientation, Rover } from '../index';
+
 describe('executeString', () => {
     test('should execute string', () => {
         const rover = new Rover(0, 0, Orientation.N);
