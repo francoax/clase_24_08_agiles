@@ -59,4 +59,28 @@ export class Rover {
 
         return this.direction;
     }
+
+    moveForward() {
+        console.log(`Rover esta mirando en direccion al ${this.direction}`);
+
+        switch (this.direction) {
+            case Orientation.N:
+                this.y++;
+                break;
+            case Orientation.S:
+                this.y--;
+                break;
+            case Orientation.E:
+                this.x++;
+                break;
+            case Orientation.O:
+                this.x--;
+                break;
+        }
+
+        console.log(this.showCoords());
+
+        return this.direction;
+    }
+
 }
