@@ -1,0 +1,27 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "description": "Kata Mars Rover - TDD en mob programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoax/clase_24_08_agiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoax/clase_24_08_agiles/issues"
+  },
+  "homepage": "https://github.com/francoax/clase_24_08_agiles#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.12",
+    "typescript": "^5.9.3"
+  }
+}
