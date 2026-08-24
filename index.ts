@@ -82,5 +82,4 @@ export class Rover {
 
         return this.direction;
     }
-
 }
