@@ -6,4 +6,4 @@ describe('executeString', () => {
         rover.executeString("FFRFF");
         expect(rover.showCoords()).toBe("(2, 2, E)");
     })
-)
+})

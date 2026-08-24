@@ -105,4 +105,29 @@ export class Rover {
 
         return this.direction;
     }
+
+    executeString(command: string) {
+        console.log(this.showCoords());
+        console.log("Comando: " + command);
+
+        for (const char of command) {
+            console.log(char)
+            switch (char) {
+                case 'F':
+                    this.moveForward();
+                    break;
+                case 'B':
+                    this.moveBackwards();
+                    break;
+                case 'L':
+                    this.turnLeft();
+                    break;
+                case 'R':
+                    this.turnRight();
+                    break;
+            }
+        }
+
+        return this.showCoords();
+    }
 }
